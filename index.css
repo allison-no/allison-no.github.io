@@ -1,23 +1,117 @@
-/* main css */
+/* MAIN */
 body {
     font-family: Poppins, Lato, sans-serif;
-    margin: 40px 0px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1000px;
-}
-
-h1 {
-    margin: 20px;
+    max-width: 750px;
 }
 
 a {
     text-decoration: none;
     color: dodgerblue;
-    margin: 20px;
+}
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
-p {
-    margin: 20px;
-    word-wrap: break-word;
+/* HEADING */
+.heading ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.heading li {
+    float: left;
+    width: 100px;
+}
+
+.heading li a {
+    color: black;
+}
+
+.heading li :hover:not(.active) {
+    text-decoration: underline;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.icon_heading {
+    height: 30px;
+    width: auto;
+    margin: 10px;
+}
+
+/* BLOCK */
+.block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.intro {
+    display: block;
+    width: 750px;
+}
+
+/* PROJECTS */
+
+.project_block {
+    width: 750px;
+    border: 1px solid lightblue;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.project_block p {
+    margin: 0px;
+    padding: 0px 20px;
+    font-size: 12px;
+}
+
+.project_block ul {
+    margin: 10px;
+    font-size: 12px;
+}
+
+.title_block {
+    display: flex;
+    padding: 10px 10px 0px;
+}
+
+.title_block .tinyicon {
+    height: 50px;
+    width: auto;
+}
+
+.title_block .project_name {
+    padding-top:15px;
+    padding-left:15px;
+    font-size: 20px;
+}
+
+.project_img {
+    width: 300px;
+    height: auto;
+    margin: 10px 25px;
+}
+
+.info_block {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.info_block a {
+    font-size: 12px;
+    padding: 0px 20px;
 }
