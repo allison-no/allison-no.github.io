@@ -11,8 +11,8 @@ a {
     color: dodgerblue;
 }
 .profile {
-    width: 200px;
-    height: 200px;
+    width: 225px;
+    height: 225px;
     border-radius: 50%;
 }
 
@@ -26,7 +26,7 @@ a {
 
 .heading li {
     float: left;
-    width: 100px;
+    margin-right: 25px;
 }
 
 .heading li a {
@@ -48,7 +48,7 @@ a {
 .icon_heading {
     height: 30px;
     width: auto;
-    margin: 10px;
+    margin: 10px 5px;
 }
 
 /* BLOCK */
@@ -61,8 +61,8 @@ a {
 .intro {
     display: block;
     width: 750px;
+    margin-right: 20px;
 }
-
 /* PROJECTS */
 
 .project_block {
@@ -114,4 +114,66 @@ a {
 .info_block a {
     font-size: 12px;
     padding: 0px 20px;
+}
+
+.etsy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.etsy_img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.contact_icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contact_icon img {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+}
+
+/* FOOTER */
+.footer {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* smaller screen css */
+@media screen and (max-width: 750px) {
+    body {
+        margin: 10px;
+        text-wrap: wrap;
+    }
+    .intro h1 {
+        font-size: 20px;
+    }
+    .intro i {
+        font-size: 20px;
+    }
+    .heading a {
+        margin:10px;
+    }
+    .heading li {
+        margin-right: 5px;
+    }
+    .icon_heading {
+        height: 25px;
+        width: auto;
+        margin: 10px 0px;
+    }
+    .project_block {
+        width: auto;
+    }
+    .info_block {
+        display: block;
+    }
 }

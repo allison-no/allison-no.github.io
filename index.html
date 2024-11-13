@@ -11,9 +11,11 @@
         <div class="heading">
             <ul>
                 <li><a href="/images/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
-                <li><a href="https://stuckonallison.etsy.com/" target="_blank" rel="noopener noreferrer">Etsy</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#etsy">Etsy</a></li>
             </ul>
             <div>
+                <a href="https://stuckonallison.etsy.com/" target="_blank" rel="noopener noreferrer"><img src="/images/etsy.png" class = "icon_heading"></a>
                 <a href="https://www.linkedin.com/in/allisonokimoto/" target="_blank" rel="noopener noreferrer"> <img src="./images/linkedin.png" class = "icon_heading"> </a>
                 <a href="https://github.com/allison-no/" target="_blank" rel="noopener noreferrer"> <img src="./images/github.png" class = "icon_heading"> </a>
             </div>
@@ -23,11 +25,13 @@
                 <h1>Allison Okimoto</h1>
                 <i>Computer Science Major at the University of Michigan</i> <br>
                 <i>Head Instructional Aide of Projects for EECS 280</i>
-                <p> Hi, thanks for stopping by! </p>
+                <p>Integrating design, usability, and software engineering for seamless user experiences.</p>
             </div>
-            <img src="/images/profile.jpg" alt="Allison Okimoto" class="profile">
+            <div class="pfp">
+                <img src="/images/profile.jpg" alt="Allison Okimoto" class="profile">
+            </div>
         </div>
-        <h2>Projects</h2>
+        <h2 id="projects">Projects</h2>
         <div>
             <div class="project_block">
                 <div class = "title_block">
@@ -44,9 +48,9 @@
                 </div>
                 <div class = "info_block">
                     <div>
-                        <img src="/images/screenshot1.png" class="project_img">
+                        <img src="/images/stardewscreenshot.png" class="project_img">
                     </div>
-                    <div>
+                    <div class="description">
                         <p>
                             This is a personal project. Stardew Checklist app parses a Stardew Valley XML save file 
                             to create a checklist to help the player complete the Community Center within 
@@ -59,14 +63,13 @@
                                 <li>XML Parsing</li>
                                 <li>Web Development</li>
                             </ul>
-                            <a href="https://allison-no.github.io/stardew_checklist/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/allison-no/stardew_checklist" target="_blank" rel="noopener noreferrer">
                                 GitHub Repository and README
                             </a>
                         </p>
                     </div>
                 </div>
             </div>
-
             <div class="project_block">
                 <div class = "title_block">
                     <div>
@@ -80,9 +83,9 @@
                     <div>
                         <img src="/images/instascreenshot.png" class="project_img">
                     </div>
-                    <div>
+                    <div class="description">
                         <p>
-                            This is a class project for EECS 485. Full-stack development of an Instagram-like 
+                            This is a set of three class projects for EECS 485. Full-stack development of an Instagram-like 
                             website. Including comments, posts, liking, accounts, passwords, and more. <br> <br>
                             Skills:
                             <ul style="list-style-type:disc;">
@@ -97,9 +100,163 @@
                                 <li>AWS</li>
                             </ul>
                         </p>
+                        <p>
+                            Source code is not linked due to University of Michigan Honor Code.
+                        </p>
+                        <br>
                     </div>
                 </div>
             </div>
+            <div class="project_block">
+                <div class = "title_block">
+                    <div>
+                        <img src="/images/370icon.png" class ="tinyicon">
+                    </div>
+                    <div class="project_name">
+                        Assembler, Linker, and Simulator
+                    </div>
+                </div>
+                <div class = "info_block">
+                    <div>
+                        <img src="/images/370screenshot.png" class="project_img">
+                    </div>
+                    <div class="description">
+                        <p>
+                            This is a set of four class projects for EECS 370. The first project introduced implementation
+                            of assemblers for LC-2K (a University of Michigan Assembly Language) and single-cycle processor simulators. 
+                            The second project added object files and implementing linking for executables. The third project 
+                            required implementation of a simulator for a multi-cycle, pipelined processor running LC-2K machine code instructions. 
+                            The final project required implementation of a caching simulator. <br> <br>
+                            Skills:
+                            <ul style="list-style-type:disc;">
+                                <li>C/C++</li>
+                                <li>Assembly</li>
+                                <li>Computer Organization</li>
+                            </ul>
+                        </p>
+                        <p>
+                            Source code is not linked due to University of Michigan Honor Code.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="project_block">
+                <div class = "title_block">
+                    <div>
+                        <img src="/images/zoo.png" class ="tinyicon">
+                    </div>
+                    <div class="project_name">
+                        Zookeeper
+                    </div>
+                </div>
+                <div class = "info_block">
+                    <div>
+                        <img src="/images/zookeeperscreenshot.png" class="project_img">
+                    </div>
+                    <div class="description">
+                        <p>
+                            This is a class project for EECS 281. This project took a graph as an input, representing
+                            different animals at a zoo. Then, it implemented a Minimum Spanning Tree (MST) and implemented
+                            and algorithm to approximate a solution to the Travelling Salesman Problem (TSP). The code used
+                            Kruskal’s Algorithm and was graded on correctness and efficiency.
+                            <br> <br>
+                            Skills:
+                            <ul style="list-style-type:disc;">
+                                <li>C/C++</li>
+                                <li>Data Structures</li>
+                                <li>Kruskal’s Algorithm</li>
+                                <li>Travelling Salesman Problem</li>
+                                <li>Minimum Spanning Tree</li>
+                            </ul>
+                        </p>
+                        <p>
+                            Source code is not linked due to University of Michigan Honor Code.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="project_block">
+                <div class = "title_block">
+                    <div>
+                        <img src="/images/bank.png" class ="tinyicon">
+                    </div>
+                    <div class="project_name">
+                        281Bank - Bank Simulator
+                    </div>
+                </div>
+                <div class = "info_block">
+                    <div>
+                        <img src="/images/bankscreenshot.png" class="project_img">
+                    </div>
+                    <div>
+                        <p>
+                            This is a class project for EECS 281. A bank wire transfer simulator. The project used multiple data structures,
+                            and focused on code efficiency.
+                            <br> <br>
+                            Skills:
+                            <ul style="list-style-type:disc;">
+                                <li>C/C++</li>
+                                <li>Data Structures</li>
+                                <li>Algorithms</li>
+                                <li>Simulator</li>
+                            </ul>
+                        </p>
+                        <p>
+                            Source code is not linked due to University of Michigan Honor Code.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>
+            <a id="etsy" href="https://stuckonallison.etsy.com/" target="_blank" rel="noopener noreferrer">
+                Etsy
+            </a>
+        </h2>
+        <div>
+            <p>
+                I officially launched Stuck On Allison in October 2019 at age 15. I started making stickers as a 
+                hobby. I have made over 2,000 sales on and off Etsy, selling over 12,000 products 
+                featuring my own designs. I went on hiatus from August 2022 to August 2024 to adjust to college
+                and focus on my studies. Here are some of my favorite products:
+            </p>
+            <div class="etsy">
+                <a id="etsy" href="https://www.etsy.com/listing/1761111678/" target="_blank" rel="noopener noreferrer" class="etsy_img">
+                    <img src="/images/etsy2.png" alt="Fall sticker sheet">
+                </a>
+                <a id="etsy" href="https://www.etsy.com/listing/1775223277/" target="_blank" rel="noopener noreferrer" class="etsy_img">
+                    <img src="/images/etsy1.png" alt="Sunny Day and Cloudy Day pins">
+                </a>
+                <a id="etsy" href="https://www.etsy.com/listing/1796961867/" target="_blank" rel="noopener noreferrer" class="etsy_img">
+                    <img src="/images/etsy3.png" alt="Cache Only sticker">
+                </a>
+                <a id="etsy" href="https://www.etsy.com/listing/1796969117/" target="_blank" rel="noopener noreferrer" class="etsy_img">
+                    <img src="/images/etsy5.png" alt="I Cry in Python Sticker">
+                </a>
+                <a id="etsy" href="https://www.etsy.com/listing/1761956552/" target="_blank" rel="noopener noreferrer" class="etsy_img">
+                    <img src="/images/etsy4.png" alt="Washi Tape Winter Emi the Bunny">
+                </a>
+            </div>
+            <p>
+                For more information you can check out Stuck On Allison on <a href="https://www.instagram.com/stuckonallison/" target="_blank" rel="noopener noreferrer">Instagram</a> 
+                and <a href="https://www.youtube.com/@stuckonallison" target="_blank" rel="noopener noreferrer">YouTube</a>.
+            </p>
+        </div>
+        <h2>Contact</h2>
+        <p>
+            Feel free to reach out to me via email: <a href="mailto:allisonokimoto@gamil.com">allisonokimoto@gmail.com</a>. <br>
+            You can also find me: <br>
+            <div class = "contact_icon">
+                <a href="https://www.linkedin.com/in/allisonokimoto/" target="_blank" rel="noopener noreferrer"> <img src="./images/linkedin.png" style="width:75px;"> </a>
+                <a href="https://github.com/allison-no/" target="_blank" rel="noopener noreferrer"> <img src="./images/github.png"> </a>
+            </div>
+        </p>
+        <div class = "footer">
+            Last updated November 2024 by <a href="https://github.com/allison-no" target="_blank" rel="noopener noreferrer">Allison Okimoto</a><br>
+            Icon credits go to <a href="https://www.flaticon.com/free-icons/etsy" >riajulislam - Flaticon</a> and <a href="https://www.flaticon.com/free-icons/zoo">Freepik - Flaticon</a>.
         </div>
     </body>
 </html>
