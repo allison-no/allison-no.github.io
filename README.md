@@ -2,8 +2,6 @@
 
 This is my personal website that I designed for fun!
 
-<img src="/images/website.png/" style="width:400px">
-
 ## Features
 - Projects with descriptions
 - Resume PDF
